@@ -1,5 +1,5 @@
 .cta{
-	background: url("../images/bg/bg-2.jpg")no-repeat;
+	background: url("../images/bg/1682779268066.png")no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -10,11 +10,21 @@
 		padding: 40px 25px;
 	}
 }
+.mb-5{
+	color: rgb(76, 88, 100);
+}
 
 .mb-30{
 	margin-bottom: 30px;
 }
+.playstore-img{
+	width: 160px;
+	margin-top: 20px;
+}
+.apps-store-img{
+	width: 160px;
+}
 
 .text-color-primary{
-	color: $primary-color;
+	color: #fff;
 }
