@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<!--
+ // Copyright &copy; 2023 Nextgen Vidhya Pvt Ltd
+-->
+
+<html lang="zxx">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Buhrata, Passion into Profit, instagram reels, shorts, yt videos, tiktok, reels, tiktok, instagram">
+  <meta name="author" content="buhrata.com">
+  
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="buhrata" />
+
+  <title>Buhrata | Passion into Profit</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/buhrata1.png" />
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bulma/bulma.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/modal-video/modal-video.css">
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/990a38f155.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<!-- navigation -->
+<div id="navbar" class="navigation py-4">
+	<div class="container">
+		 <nav class="navbar">
+			 <div class="navbar-brand">
+				 <a class="navbar-item" href="index.html">
+					 <img src="images/image.png" alt="logo">
+				 </a>
+				 <button role="button" class="navbar-burger burger" data-hidden="true" data-target="navigation">
+					 <span aria-hidden="true"></span>
+					 <span aria-hidden="true"></span>
+					 <span aria-hidden="true"></span>
+				 </button>
+			 </div>
+ 
+			 <div class="navbar-menu" id="navigation">
+				 <ul class="navbar-start ml-auto">
+					 <li class="navbar-item">
+						 <a class="navbar-link" href="index.html" style="color: #FED8B1;margin-right: 20px;">Home</a>
+					 </li>
+					 
+					 <li class="navbar-item">
+						 <a class="navbar-link" href="about.html" style="color: #FED8B1; margin-right: 20px;">About</a>
+					 </li>
+					 <li class="navbar-item">
+						<a class="navbar-link" href="brand.html" style="color: #FED8B1; margin-right: 20px;">Brand</a>
+					</li>
+					<li class="navbar-item">
+						<a class="navbar-link" href="contact.html" style="color: #FED8B1;margin-right: 20px;">Contact</a>
+					</li>
+				</ul>
+					 
+					 <!-- <li class="navbar-item">
+						 <a class="navbar-link" href="project.html">Portfolio</a>
+					 </li> -->
+ 
+					 <!-- <li class="navbar-item has-dropdown">
+						 <a class="navbar-link">Pages</a>
+						 <div class="navbar-dropdown">
+							 <a class="navbar-item" href="service.html">Service</a>
+							 <a class="navbar-item" href="pricing.html">Pricing</a>
+							 <a class="navbar-item" href="blog-sidebar.html">Blog with sidebar</a>
+							 <a class="navbar-item" href="blog-single.html">Blog Single</a>
+						 </div>
+					 </li> -->
+				 <!-- <ul class="navbar-end ml-0">
+					 <li class="navbar-item">
+						<a href="contact.html" class="btn btn-solid-border">Get the app <i class="fa fa-angle-right ml-2"></i></a>
+					 </li>
+				 </ul> -->
+			 </div>
+		 </nav>
+	</div>
+ </div>
+ <style>
+.ml-auto{
+	left: -5vw;
+	position: relative;
+}
+ </style>
+<section class="page-title bg-1">
+   <div class="container">
+      <div class="columns">
+         <div class="column is-12">
+            <div class="block has-text-centered">
+               <span class="text-white">Contact Us</span>
+               <h1 class="is-capitalize text-lg">Get in Touch</h1>
+
+               <ul class="list-inline breadcumb-nav">
+                  <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                  <li class="list-inline-item"><span class="text-white">/</span></li>
+                  <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- contact form start -->
+<section class="contact-form-wrap section" id="contact">
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-12">
+                <span class="text-color">Send a message</span>
+                <h3 class="text-md mb-5">Contact Form</h3>
+            </div>
+        </div>
+
+        <div class="columns is-multiline">
+            <div class="column is-8-desktop">
+                <form id="contact-form" class="contact__form" method="post" action="#">
+                    <!-- form message -->
+                    <div class="columns is-multiline">
+                        <div class="column is-12">
+                            <div class="notification is-success contact__msg mb-4" style="display:none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                        </div>
+                        <div class="column is-12">
+                            <select id="dropdown" name="dropdown" class="input">
+                                <option value="" disabled selected hidden>Select an option</option>
+                                <option value="I am a Brand">I am a Brand</option>
+                                <option value="I am an Influencer">I am an Influencer</option>
+                            </select>
+                        </div>
+                        <div class="column is-12">
+                            <input name="name" id="name" type="text" class="input" placeholder="Your Name">
+                        </div>
+                        <div class="column is-12">
+                            <input name="email" id="email" type="email" class="input" placeholder="Email Address">
+                        </div>
+                        <div class="column is-12">
+                            <input name="mobile" id="mobile" type="text" class="input" placeholder="Mobile Number">
+                        </div>
+                        <div class="column is-12">
+                            <input name="subject" id="subject" type="text" class="input" placeholder="Your Subject">
+                        </div>
+                        <div class="column is-12">
+                            <textarea name="message" id="message" class="input" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="column is-12">
+                            <button class="btn btn-main" type="button" onclick="submitForm()">Send
+                                Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="column is-4-desktop">
+                <div class="short-info">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Call Us</h5>
+                            +91  9653672539
+
+
+                        </li>
+                        <li>
+                            <h5>Email Us</h5>
+                            contact@burhata.com
+                        </li>
+                        <li>
+                            <h5>Location Map</h5>
+                            512, Nextgen Vidhya Pvt Ltd,
+                            Corporate Annexe, IB Patel Road,
+                            Goregaon (East), Mumbai - 400065,
+                            Maharashtra, India
+                        </li>
+                    </ul>
+
+                    <ul class="social-icons list-inline mt-5">
+                        <li class="list-inline-item">
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@burhata.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        </li>                                                
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/buhrata?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <!-- <li class="list-inline-item">
+                            <a href="#"><i class="ti-facebook mr-2"></i></a>
+                        </li> -->
+                        <!-- <li class="list-inline-item">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="columns is-multiline">
+            <div class="column is-12">
+                 <div class="google-map mt-90 mb-6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="columns is-multiline">
+            <div class="column is-4-desktop is-6-tablet">
+                <div class="contact-content">
+                    <h4 class="mb-4">Corporate Office</h4>
+
+                    <ul class="address-block list-unstyled">
+                        <li>
+                            <i class="ti-location-pin mr-3"></i>North Main Street,Brooklyn Australia
+                        </li>
+                        <li>
+                            <i class="ti-email mr-3"></i>Email: contact@mail.com
+                        </li>
+                        <li>
+                            <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+
+        <!-- <div class="column is-4-desktop is-6-tablet">
+                <div class="contact-info">
+                    <h4 class="mb-4">USA Location</h4>
+                    <ul class="address-block list-unstyled">
+                        <li>
+                            <i class="ti-location-pin mr-3"></i>North Main Street,Brooklyn Australia
+                        </li>
+                        <li>
+                            <i class="ti-email mr-3"></i>Email: contact@mail.com
+                        </li>
+                        <li>
+                            <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+
+        <!-- <div class="column is-4-desktop is-6-tablet">
+                <div class="contact-info">
+                    <h4 class="mb-4">Europe</h4>
+                    <ul class="address-block list-unstyled">
+                        <li>
+                            <i class="ti-location-pin mr-3"></i>North Main Street,Brooklyn Australia
+                        </li>
+                        <li>
+                            <i class="ti-email mr-3"></i>Email: contact@mail.com
+                        </li>
+                        <li>
+                            <i class="ti-mobile mr-3"></i>Phone:+88 01672 506 744
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+    </div>
+    </div>
+</section>
+
+<style>
+    /* Hide scrollbar for Chrome, Safari and Opera */
+#contact::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#contact {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>
+
+
+<script>
+     function submitForm() {
+        const dropdown = document.getElementById("dropdown").value;
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const mobile = document.getElementById("mobile").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+
+        if (!dropdown || !name || !email || !mobile|| !subject || !message) {
+          return alert("Please fill all the field")
+        }else{
+
+        const sentence = dropdown;
+        const words = sentence.split(" ");
+        const lastWord = words[words.length - 1];
+
+
+          // Example usage:
+          const destinationPhoneNumber = '919653672539'; // Replace with the actual destination phone number
+          const templateParams = [
+            'Buhrata - '+ lastWord,
+            name,
+            email,
+            mobile,
+            subject,
+            message
+          ];
+      
+
+// Call the function with dynamic values
+sendWhatsAppMessage(destinationPhoneNumber, templateParams);
+document.getElementById("contact-form").reset();
+
+        }
+      }
+
+function sendWhatsAppMessage(destinationPhoneNumber, templateParams) {
+  const apiUrl = 'https://api.gupshup.io/wa/api/v1/template/msg';
+  const apiKey = 'y6augsnlvufcalxps2grvxgbmxvdjgo7';
+
+  const postData = new URLSearchParams();
+  postData.append('channel', 'whatsapp');
+  postData.append('source', '12345293827');
+  postData.append('destination', destinationPhoneNumber); // Use the provided destinationPhoneNumber
+  postData.append('src.name', 'ChatWeaver');
+  postData.append('template', JSON.stringify({
+    id: 'e7bac4b3-41ee-414a-896f-1b8c398d8eb3',
+    params: templateParams // Use the provided templateParams array
+  }));
+
+  fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+      'Cache-Control': 'no-cache',
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'apikey': apiKey,
+      'cache-control': 'no-cache',
+    },
+    body: postData,
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+}
+</script>
+
+
+<!-- footer Start -->
+<footer class="footer section">
+	<div class="container">
+		<div class="columns is-multiline">
+			<div class="column is-3-widescreen is-6-tablet">
+				<div class="widget">
+					<div class="logo mb-4">
+						<img src="images/image.png" alt="logo">
+					</div>
+					<p>
+						Passion into Profit.
+					</p>
+				</div>
+			</div>
+			<div class="column is-2-widescreen is-6-desktop is-6-tablet ml-auto">
+				<div class="widget">
+					<h4 class="is-capitalize mb-4">Company</h4>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="/about.html">About</a></li>
+						<li><a href="/contact.html">Contact</a></li>
+						<!-- <li><a href="/services.html">Careers</a></li> -->
+						<!-- <li><a href="#">Team</a></li> -->
+						<!-- <li><a href="#">Contact</a></li> -->
+					</ul>
+				</div>
+			</div>
+			<div class="column is-3-widescreen is-6-desktop is-6-tablet">
+				<div class="widget">
+					<h4 class="is-capitalize mb-4">Support</h4>
+
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="/terms-n-conditions.html">Terms & Conditions</a></li>
+						<li><a href="/privacy-policy.html">Privacy Policy</a></li>
+						<li><a href="/faq.html">FAQs</a></li>
+						<!-- <li><a href="#">Support</a></li>
+						<li><a href="#">FAQ</a></li> -->
+					</ul>
+				</div>
+			</div>
+			<div class="column is-3-widescreen is-6-desktop is-6-tablet">
+				<div class="widget widget-contact">
+					<h4 class="is-capitalize mb-4">Get in Touch</h4>
+					<h6><a href="mailto:contact@buhrata.com" > <i class="fa-solid fa-inbox"></i> contact@buhrata.com</a></h6>
+					<h6><a href="tel:09653672539" > <i class="fa-solid fa-phone"></i> 09653672539</a></h6>
+
+					<ul class="list-inline footer-socials mt-5">
+						<li class="list-inline-item"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@burhata.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+						<li class="list-inline-item"><a href="https://instagram.com/buhrata?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+						<!-- <li class="list-inline-item"><a href="#"><i class="ti-facebook mr-2"></i></a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-btm py-4 mt-6">
+			<div class="columns">
+				<div class="column is-6-widescreen">
+					<div class="copyright">
+						&copy; Copyright Reserved to <span class="text-color"><img src="images/image.png" alt="logo" style="width:70px;"></span>.<a href="https://nextgentechno.in/" target="_blank"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+   
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <script src="js/contact.js"></script>
+   <!--  Magnific Popup-->
+    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+
+     <script src="plugins/modal-video/modal-video.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+    
+    <script src="js/script.js"></script>
+
+  </body>
+  </html>
